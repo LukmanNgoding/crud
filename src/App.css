@@ -7,6 +7,19 @@
   pointer-events: none;
 }
 
+body {
+  padding-top: 50px;
+}
+
+.btn {
+  margin: 2px;
+}
+
+.divbtn {
+  float: left;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +45,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
